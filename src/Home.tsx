@@ -15,7 +15,7 @@ export const Home: React.FC = () => {
     } else if (buttonId === "multi") {
       navigate("/contacts"); // 画面遷移: /contacts に遷移
     }
-  }; //aaa
+  }; //aa
 
   return (
     <main className="main">

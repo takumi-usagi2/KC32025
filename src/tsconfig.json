@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "esnext",  // 出力するJavaScriptのターゲット（ESNext推奨）
+    "lib": ["esnext", "dom"],  // 使用するライブラリ（ESNext、DOM）
+    "module": "esnext",  // モジュールシステムをESNextに設定
+    "moduleResolution": "node",  // Node.js のモジュール解決方法
+    "esModuleInterop": true,  // ESモジュールとCommonJSモジュールの互換性を有効にする
+    "allowSyntheticDefaultImports": true,  // デフォルトインポートを許可
+    "strict": true , // 厳密な型チェック（任意）
+    "jsx": "react-jsx"  // JSXをサポートするための設定
+  }
+}

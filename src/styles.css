@@ -1,0 +1,120 @@
+.main {
+  width: 600px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f5f189;
+  padding-bottom: 100px;
+}
+
+.bingo {
+  font-size: 20px;
+  font-family: "Noto Serif JP", serif; /* 明朝体に近いフォント */
+}
+
+.bingoboard {
+  background-color: blueviolet;
+}
+
+.p {
+  font-size: 50px;
+  font-family: "Noto Serif JP", serif; /* 明朝体に近いフォント */
+}
+
+.div {
+  display: flex; /* Flexboxレイアウトにする */
+  justify-content: flex-start;
+  align-items: center; /* 高さを揃える */
+  gap: 20px; /* セクション間の隙間を調整 */
+}
+
+.solosection {
+  width: 200px;
+  border: 2px solid #0b0707; /* 黒い枠線 */
+}
+
+h1 {
+  background-color: aqua;
+  display: flex; /* Flexboxを使用 */
+  justify-content: center; /* 横方向（左右）中央揃え */
+}
+
+.multisection {
+  width: 200px;
+  border: 2px solid #0b0707; /* 黒い枠線 */
+}
+
+section {
+  width: 200px; /* 各sectionの幅 */
+  padding: 20px;
+  background-color: lightblue;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.container {
+  background-color: lightgreen;
+  padding: 20px;
+  font-size: 18px;
+  display: flex; /* Flexboxを使用 */
+  justify-content: center; /* 横方向（左右）中央揃え */
+  align-items: center; /* 縦方向（上下）中央揃え */
+}
+
+/* styles.css */
+.solobutton {
+  padding: 20px 40px;
+  font-size: 16px;
+  color: black;
+  background-image: url("/images/solo1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #0b0707; /* 黒い枠線 */
+  border-radius: 8px; /* 角を丸くする */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.multibutton {
+  padding: 20px 40px;
+  font-size: 16px;
+  color: black;
+  background-image: url("/images/multi1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 2px solid #0b0707; /* 黒い枠線 */
+  border-radius: 8px; /* 角を丸くする */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button {
+  border: 2px solid black; /* 全てのボタンに黒い枠線を追加 */
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd; /* ホバー時に背景色を変更 */
+}
+
+.button:hover {
+  background-color: #295f2c; /* カーソルが重なった時の色 */
+  border-color: #00ff00; /* ホバー時の枠線色 */
+}
+
+.correct {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+  justify-content: center; /* 横方向（左右）中央揃え */
+}
+
+.incorrect {
+  color: red;
+  font-weight: bold;
+  font-size: 10px;
+  justify-content: center; /* 横方向（左右）中央揃え */
+}

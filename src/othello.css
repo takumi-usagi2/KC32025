@@ -1,0 +1,106 @@
+/* othello.css: contacts*/
+
+/* ページ全体の基本設定 */
+body {
+    margin: 0; /* ブラウザデフォルトの余白をリセット */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* 読みやすいフォント */
+    background-color: #f0f2f5; /* 背景色を設定 */
+  }
+  
+  /* アプリ全体を包むコンテナ */
+  .app {
+    padding: 20px; /* コンテンツ周りの余白 */
+  }
+  
+  /* ゲーム画面のレイアウト：盤と情報パネルを横並びに配置 */
+  .game-container {
+    display: flex;               /* 横並びレイアウト */
+    justify-content: center;     /* 中央に配置 */
+    align-items: flex-start;     /* 上寄せに配置 */
+    gap: 20px;                   /* 盤とパネル間のスペース */
+    padding: 50px;
+    padding-left: 80px;
+    flex-wrap: wrap;             /* 画面サイズが小さい場合、折り返し可能に */
+  }
+  
+  /* 盤そのもののスタイル設定 */
+  .board {
+    display: grid;
+    grid-template-columns: repeat(8, 70px);  /* 8列のグリッド（各セル70px） */
+    grid-template-rows: repeat(8, 70px);     /* 8行のグリッド */
+    gap: 3px;                                /* 各セル間の隙間 */
+    background-color: #333;                  /* 盤の背景色 */
+    padding: 20px;                            /* 盤内の余白 */
+    border-radius: 8px;                      /* 角を丸く */
+  }
+  
+  /* 各セルのスタイル：盤上の1マスを表現 */
+  .cell {
+    width: 70px;
+    height: 70px;
+    background-color: #4caf50;   /* 緑色（盤面の色） */
+    border-radius: 4px;          /* セルの角を丸く */
+    display: flex;
+    justify-content: center;     /* 内部コンテンツを中央配置 */
+    align-items: center;
+    cursor: pointer;             /* マウスオーバー時にクリック可能を示す */
+    transition: background-color 0.3s; /* 背景色変更にアニメーションを追加 */
+  }
+  
+  .cell:hover {
+    background-color: #66bb6a;   /* マウスホバー時に少し明るい緑色に変更 */
+  }
+  
+  /* ディスク（石）のスタイル */
+  .disc {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;          /* 円形に */
+  }
+  
+  .disc.black {
+    background-color: #000;      /* 黒のディスク */
+  }
+  
+  .disc.white {
+    background-color: #fff;      /* 白のディスク */
+    border: 1px solid #000;      /* 黒い枠線で区別 */
+  }
+  
+  /* ゲーム情報パネルのスタイル */
+  .info-panel {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    /* 固定幅を設定してレイアウト崩れを防止 */
+    width: 300px; 
+    text-align: left;
+  }
+  
+  
+  .info-panel h2 {
+    margin-top: 0; /* 見出しの上余白をリセット */
+  }
+  
+  /* オーバーレイ（モーダル）のスタイル */
+  .overlay {
+    position: fixed;                 /* 画面全体に固定 */
+    top: 0;
+    left: 0;
+    width: 100%;                     /* 画面幅全体 */
+    height: 100%;                    /* 画面高さ全体 */
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay-content {
+    background: #fff;
+    padding: 20px 30px; 
+    border-radius: 8px;
+    text-align: center;
+  }
+  

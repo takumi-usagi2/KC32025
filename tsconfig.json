@@ -1,7 +1,7 @@
 {
     "include": [
         "./src/**/*"
-    ],
+, "public/quiz/quizData.ts"    ],
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,

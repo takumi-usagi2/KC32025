@@ -1,0 +1,105 @@
+// クイズのデータを定義
+export const quizQuestions = [
+  {
+    question: "兵庫県神戸市のある企業で生まれた、小さな球状のかりんとう風味の米菓といえば？",
+    image: null,
+    options: ["雀ボール", "鶯ボール", "不如帰ボール"],
+    correctAnswer: "鶯ボール",
+    },
+    {
+    question: "コリアンタウンとして知られている、大阪府のある地域の名前は？",
+    image: null,
+    options: ["玉造", "新大久保", "鶴橋"],
+    correctAnswer: "鶴橋",
+    },
+    {
+    question: "かつて先進国首脳会議が行われた地でもある、三重県英虞湾にある小さな有人島の名前は？",
+    image: null,
+    options: ["賢島", "沼島", "家島"],
+    correctAnswer: "賢島",
+    },
+    {
+    question: "日本でたった2ヶ所しかないパンダを見ることができる動物園のうち、和歌山県にあるものの名前は？",
+    image: null,
+    options: ["ひらかたパーク", "アドベンチャーワールド", "王子動物園"],
+    correctAnswer: "アドベンチャーワールド",
+    },
+    {
+    question: "関西弁の「モータープール」とは、何を意味する言葉か？",
+    image: null,
+    options: ["工場", "市民プール", "駐車場"],
+    correctAnswer: "駐車場",
+    },
+    {
+    question: "奈良県に生息する鹿に与えるえさとして有名な「鹿せんべい」のうち、材料に使われていないものは次のうちどれか？",
+    image: null,
+    options: ["小麦粉", "米ぬか", "砂糖"],
+    correctAnswer: "砂糖",
+    },
+    {
+    question: "京都府の府鳥は次のうちどれか？",
+    image: null,
+    options: ["シロチドリ", "オオミズナギドリ", "モズ"],
+    correctAnswer: "オオミズナギドリ",
+    },
+    {
+    question: "かつては日本一低い山とされていた、大阪府大阪市港区にある山の名前は？",
+    image: null,
+    options: ["日和山", "弁天山", "天保山"],
+    correctAnswer: "天保山",
+    },
+    {
+    question: "京都府京都市左京区にある和菓子店「出町ふたば」の定番商品といえば？",
+    image: null,
+    options: ["蓬餅", "柏餅", "豆餅"],
+    correctAnswer: "豆餅",
+    },
+    {
+    question: "日本標準時子午線として知られる東経135度の経線は、兵庫県のどの市を通る？",
+    image: null,
+    options: ["丹波市", "明石市", "加古川市"],
+    correctAnswer: "明石市",
+    },
+    {
+    question: "室町時代、足利尊氏に敗れた後醍醐天皇は吉野に南朝を開いた。さて、「吉野」とは主に今のどこに当たるか？",
+    image: null,
+    options: ["奈良県", "和歌山県", "三重県"],
+    correctAnswer: "奈良県",
+    },
+    {
+    question: "三重県を中心に展開している中華料理チェーン店の名前は？",
+    image: null,
+    options: ["あじへい", "あじたろう", "あじまん"],
+    correctAnswer: "あじへい",
+    },
+    {
+    question: "日本三大名瀑として名が挙がることが多い次の3つの滝のうち、和歌山県にあるものはどれか？",
+    image: null,
+    options: ["華厳滝", "那智滝", "袋田滝"],
+    correctAnswer: "那智滝",
+    },
+    {
+    question: "大阪府にある唯一の村の名前は？",
+    image: null,
+    options: ["南箕輪村", "新篠津村", "千早赤阪村"],
+    correctAnswer: "千早赤阪村",
+    },
+    {
+    question: "三重県伊賀市にある、動物とのふれあいやグルメなど、農業にまつわる多様な体験ができる農業公園の名前は？",
+    image: null,
+    options: ["モクモク手づくりパーク", "ワクワク手づくりファーム", "モクモク手づくりファーム"],
+    correctAnswer: "モクモク手づくりファーム",
+    },
+    {
+    question: "かつて要塞として用いられていたほか、ビデオゲームの舞台にも起用されたことのある、和歌山県和歌山市深山にある無人島群は何と呼ぶか？",
+    image: null,
+    options: ["友ヶ島", "地ノ島", "虎島"],
+    correctAnswer: "友ヶ島",
+    },
+    {
+    question: "約6割が兵庫県で生産されている、主に酒米として用いられている稲の品種の名前は？",
+    image: null,
+    options: ["雄町", "山田錦", "五百万石"],
+    correctAnswer: "山田錦",
+    },
+];

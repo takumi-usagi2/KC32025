@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { quizQuestions } from "./quizData"; // クイズデータをインポート
-import "./styles.css"; //cssをインポート
+import { quizQuestions } from "../../public/quiz/quizData"; // クイズデータをインポート
+import "../styles.css"; //cssをインポート
 
 export const About: React.FC = () => {
   const [gameStarted, setGameStarted] = useState(false); // ゲーム開始状態

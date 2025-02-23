@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css"; // CSSファイルをインポート
+import "../styles.css"; // CSSファイルをインポート
 import { useNavigate } from "react-router-dom";
 
 export const Home: React.FC = () => {

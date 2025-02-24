@@ -108,4 +108,46 @@ export const quizQuestions = [
     options: ["みかん", "もも", "はっさく"],
     correctAnswer: "もも",
     },
+    {
+	question: "今城塚古墳で出土した武人埴輪がモデルの、大阪府高槻市のPRマスコットキャラクターの名前は？",
+	image: null,
+	options: ["はにぽん", "はにたん", "ハニワ部長"],
+	correctAnswer: "はにたん",
+	},
+	{
+	question: "「君臣豊楽 国家安康」の銘文が問題視され、大坂の陣のきっかけとなった鐘がある、現在の京都府京都市東山区にある寺院の名前は？",
+	image: null,
+	options: ["東福寺", "六波羅蜜寺", "方広寺"],
+	correctAnswer: "方広寺",
+	},
+	{
+	question: "琵琶湖でとれるある魚を塩漬けにしたのち、米とともに漬け込んで発酵させた、滋賀県の郷土料理をなんという？",
+	image: null,
+	options: ["鮒ずし", "柿の葉寿司", "めはりずし"],
+	correctAnswer: "鮒ずし",
+	},
+	{
+	question: "滋賀県の名物パンである「サラダパン」はマヨネーズと何をコッペパンに挟んだものであるか？",
+	image: null,
+	options: ["たくあん", "キャベツ", "柴漬け"],
+	correctAnswer: "たくあん",
+	},
+	{
+	question: "明治時代にお雇い外国人として来日し、日本美術の発展に貢献したフェノロサの埋葬地は、滋賀県のどこにあるか？",
+	image: null,
+	options: ["陽明園", "神照寺", "法明院"],
+	correctAnswer: "法明院",
+	},
+	{
+	question: "全国で、滋賀県での設置数が全国一とされているものは次のうちどれか？",
+	image: null,
+	options: ["公衆電話", "飛び出し坊や", "水素ステーション"],
+	correctAnswer: "飛び出し坊や",
+	},
+	{
+	question: "滋賀県を中心に展開しているスーパーマーケットチェーンを何という？",
+	image: null,
+	options: ["平和堂", "万代", "コスモス"],
+	correctAnswer: "平和堂",
+	},
 ];

@@ -102,4 +102,10 @@ export const quizQuestions = [
     options: ["雄町", "山田錦", "五百万石"],
     correctAnswer: "山田錦",
     },
+    {
+    question: "次の3つの果物のうち、現時点で和歌山県が生産量1位になっていないものはどれか？",
+    image: null,
+    options: ["みかん", "もも", "はっさく"],
+    correctAnswer: "もも",
+    },
 ];
